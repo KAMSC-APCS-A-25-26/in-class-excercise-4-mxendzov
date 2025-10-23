@@ -13,7 +13,7 @@ public class ShoppingCart {
             double price = sc.nextDouble();
             totalcost = totalcost + price;
         }
-        System.out.printf("Your cart has %d items with a total cost of $%.1f%n", items, totalcost);
+        System.out.printf("Your cart has %d items with a total cost of $%.2f%n", items, totalcost);
 
         // TODO: Print the final summary line with item count and total
         // TODO: Use Scanner for input
